@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: "Dune_Rise";
+    src: url("../fonts/Dune_Rise.ttf");
+} 
+
+
+header {
+    white-space: nowrap;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(110, 59, 4);
+    background-image: url(../img/dune-background.jpg);
+    background-color: antiquewhite;
+    background-position: top center;
+    white-space: nowrap;
+    background-attachment: fixed;
+}
+
+h1 {
+   font-family: 'Dune_Rise', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+
+#header-h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 5450;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 8px;
+    white-space: nowrap;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.all-lists {
+    margin-top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+section.list {
+    display: inline-block;
+    width: 400px;
+    margin-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align: top;
+    background-color: #ce7b376e;
+    border-radius: 10px;
+    height: 1650px;
+}
+
+section.list p {
+    list-style: none;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: normal;
+}
+
+section.list > img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;  
+}
+
+#color-blurb, #cast-blurb {
+    text-indent: 15px;
+}
+
+#quote {
+    font-style: italic;
+    margin-left: 10px;
+    text-indent: 20px;
+}
+
+#bottom-sections{
+    position: absolute;
+    left: 50%;
+    top: 260%;
+    transform: translate(-50%);
+}
+
+#facts-section, #quotes-section, #links-section {
+    display: inline-block;
+    background-color: #ce7b376e;
+    border-radius: 10px;
+    vertical-align: top;
+    width: 500px;
+    height: 475px;
+    margin-bottom: 40px; 
+    white-space: none;
+}
+
+#quotes-section > p {
+    text-align: left;
+    margin-left: 15px;
+    padding: 0px;
+}
+
+#facts-section h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.locations-table {
+    width: 450px;
+    margin-left: 27px;
+    padding-left: 0px;
+}
+
+th {
+    height: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    text-align: left;
+    white-space: normal;
+}
+
+#quotes-section h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#quote-section-quote {
+        font-style: italic;
+        margin-left: 20px;
+        text-indent: 20px;
+}
+
+#links-section h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#links {
+    padding: 0px;
+    margin-left: 27px;
+    list-style: none;
+}

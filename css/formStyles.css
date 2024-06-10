@@ -1,0 +1,54 @@
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(221, 193, 247);
+    border-radius: 10px;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+input{
+    width: 50%;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+#submit {
+    cursor: pointer;
+    background-color: azure;
+    border-color: aquamarine;
+    width: 20%;
+
+}
+#confirmation {
+    
+    position: relative;
+    vertical-align: middle;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+#favorite-color {
+    width: 50px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+ 
